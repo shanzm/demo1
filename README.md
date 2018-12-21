@@ -1,4 +1,4 @@
-# demo1
+# demo1-此仓库仅仅是用来做git的练习和测试的
 https://www.imooc.com/video/7624，关于GitHub的使用之创建一个新项目（新仓库）
 
 
