@@ -24,6 +24,7 @@ namespace hello_world
             int i = 12;
             Console.WriteLine("i=" + i);
             Console.WriteLine("test");
+            Console.WriteLine("test2");
             Console.ReadKey();
 
 
