@@ -1,0 +1,6 @@
+c:\users\shanzm\documents\visual studio 2015\Projects\反编译测试案例\hello world\bin\Debug\hello world.exe.config
+c:\users\shanzm\documents\visual studio 2015\Projects\反编译测试案例\hello world\bin\Debug\hello world.exe
+c:\users\shanzm\documents\visual studio 2015\Projects\反编译测试案例\hello world\bin\Debug\hello world.pdb
+c:\users\shanzm\documents\visual studio 2015\Projects\反编译测试案例\hello world\obj\Debug\hello world.csprojResolveAssemblyReference.cache
+c:\users\shanzm\documents\visual studio 2015\Projects\反编译测试案例\hello world\obj\Debug\hello world.exe
+c:\users\shanzm\documents\visual studio 2015\Projects\反编译测试案例\hello world\obj\Debug\hello world.pdb
