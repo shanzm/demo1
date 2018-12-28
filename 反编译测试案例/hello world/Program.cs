@@ -16,16 +16,16 @@ namespace hello_world
             foreach (string item in sArray)
             {
                 Console.WriteLine(item);
-               
+
             }
             Print p = new hello_world.Print();
             p.DOPrint();
 
             int i = 12;
             Console.WriteLine("i=" + i);
-          
+            Console.WriteLine("test");
             Console.ReadKey();
-           
+
 
         }
     }
