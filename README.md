@@ -7,3 +7,6 @@ https://www.imooc.com/video/7624，关于GitHub的使用之创建一个新项目
 ![Travis (.org)](https://img.shields.io/travis/USER/REPO.svg?style=flat-square)](https://github.com/shanzm)
 
 [![Watch the video](https://github.com/shanzm/Restaurant-Management-System/blob/cd509f6008650a35967ec96dccf47c5055e97b22/VideoDemo.wmv)
+
+
+:smile:
