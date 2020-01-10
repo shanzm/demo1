@@ -21,10 +21,8 @@ update :2020年1月10日 10:25:41-shanzm
 ### 0 .net中的缓存对象
 
 * MemoryCache对象
-<br>
-
 * HttpContext.Cache (Asp.net)对象
-<br>
+
 
 示例：（详见：[001MemoryCache](https://github.com/shanzm/NoSQL/tree/master/001MemoryCache)）
 
@@ -42,13 +40,10 @@ memCache.Add("name", "shanzm", DateTimeOffset.Now.AddSeconds(10));
 ### 1.MemCached
 
 * 安装包下载：[推荐一个编译好的安装包](http://static.runoob.com/download/memcached-win32-1.4.4-14.zip)
-<br>
 
 * NuGet:PM> Install-Package EnyimMemcached
-<br>
 
 * MemCached中的Cas操作：（详见：[003Cas操作](https://github.com/shanzm/NoSQL/tree/master/003Cas%E6%93%8D%E4%BD%9C)）
-<br>
 
 示例：（详见：[002MemCachedDemo](https://github.com/shanzm/NoSQL/tree/master/002MemCachedDemo)）
 
@@ -92,18 +87,12 @@ using (MemcachedClient memClient = new MemcachedClient(memConfig))
 ### 2.Redis
 
 * 安装Redis（官方为windows版，[微软自己维护一个开源版本](https://github.com/microsoftarchive/redis/releases)）
-<br>
 
 * 常用的命令：[参考](https://www.w3cschool.cn/redis_all_about/redis_all_about-pf4826ua.html)
-<br>
-
 
 * 安装Redis GUI客户端：RedisDesktopManager （[推荐一个cracked 2019.5版本](https://www.lanzous.com/i7jtkkf)）
-<br>
 
-* NuGet:PM>Install-Package StackExchange.Redist（注意其所支持的dotnet版本）
-[官方地址](https://github.com/StackExchange/StackExchange.Redis)
-<br>
+* NuGet:PM>Install-Package StackExchange.Redist（注意其所支持的dotnet版本）[官方地址](https://github.com/StackExchange/StackExchange.Redis)
 
 * Redis中的六种数据类型的具体操作及使用案例
 
@@ -171,15 +160,11 @@ using (ConnectionMultiplexer conn = await ConnectionMultiplexer.ConnectAsync("12
 ### 3.MongoDB
 
 * 安装MongoDB（[官方地址](https://www.mongodb.com/download-center/community)）
-<br>
 
-* 安装MongoDB GUI客户端：[Robo3T](https://robomongo.org/download)
-<br>
+* 安装MongoDB GUI客户端：[Robo3T](https://robomongo.org/download
 
-* NuGet:PM>Install-Package MongoDB.Driver -Version 2.5.0
-(注意默认安装最新版本可能会报错
+* NuGet:PM>Install-Package MongoDB.Driver -Version 2.5.0(注意默认安装最新版本可能会报错
 亲测2.5.0版本和 .net Framework版本是4.6.1完美支持)
-<br>
 
 * MongoDB中的完整的增删改查，见：[017MongoDB中的CURD](https://github.com/shanzm/NoSQL/tree/master/017MongoDB%E4%B8%AD%E7%9A%84CURD)
 <br>
